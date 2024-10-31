@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Displays numbers from 1 to 20 with specific messages at 4,9,17
+
+COUNTER=1
+while [ $COUNTER -le 20 ]; do
+    if [ $COUNTER -eq 4 ]; then
+        echo "$COUNTER"
+        echo "bad luck from China"
+    elif [ $COUNTER -eq 9 ]; then
+        echo "$COUNTER"
+        echo "bad luck from Japan"
+    elif [ $COUNTER -eq 17 ]; then
+        echo "$COUNTER"
+        echo "bad luck from Italy"
+    else
+        echo "$COUNTER"
+    fi
+    (( COUNTER+=1 ))
+done
