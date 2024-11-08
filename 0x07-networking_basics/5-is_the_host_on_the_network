@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Pings an ip address passed as an argument
 
 if [ "$#" -lt "1" ]
 then
