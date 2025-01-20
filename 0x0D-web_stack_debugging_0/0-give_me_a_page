@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# command used to fix the issue arrised from using Docke
+# command used to fix the issue arrised from using Docker
 
-echo "ServerName localhost" >> /etc/apache2.conf
+echo "apache2 is running" >> /etc/apache2.conf
 service apache2 start
