@@ -1,0 +1,16 @@
+Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:5 http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu focal InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nginx is already the newest version (1.18.0-0ubuntu1.6).
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+./0-nginx_likes_port_80: line 9: ufw: command not found
+ * Restarting nginx nginx
+   ...done.
+ * Restarting nginx nginx
+   ...done.

@@ -1,8 +1,17 @@
 #!/usr/bin/env bash
-# configures a server and fixes a bug : Ubuntu container’s Nginx installation not listening on port 80
+# configures a server and fixes a bug : Ubuntu container’s
+# Nginx installation not listening on port 80
 
 # service nginx restart
 apt-get update -y
 apt-get install nginx -y
-sudo service nginx enable
-sudo service nginx start
+
+ufw allow 'Nginx HTTP'
+
+# sudo service nginx start
+
+sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
+service nginx restart
+
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
