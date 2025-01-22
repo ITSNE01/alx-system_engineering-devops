@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# sets up the web servers for the deployment of web_static
+# configures a server and fixes a bug : Ubuntu container’s Nginx installation not listening on port 80
 
 # service nginx restart
 apt-get update -y
