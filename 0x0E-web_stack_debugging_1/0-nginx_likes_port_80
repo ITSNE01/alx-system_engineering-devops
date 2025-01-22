@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# sets up the web servers for the deployment of web_static
+
+# service nginx restart
+apt-get update -y
+apt-get install nginx -y
+sudo service nginx enable
+sudo service nginx start
