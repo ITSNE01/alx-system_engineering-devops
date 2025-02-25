@@ -1,13 +1,15 @@
 #!/usr/bin/python3
-""" parses the title of all hot articles, and prints a sorted count of
-    given keywords (case-insensitive, delimited by spaces """
+""" parses the title of all hot articles, and prints
+    a sorted count of given keywords (case-insensitive,
+    delimited by spaces """
 
 
 import requests
 
 
 def count_words(subreddit, word_list, after='', word_dict={}):
-    """ Prints counts of given words found in hot posts of a given subreddit """
+    """ Prints counts of given words found in hot posts
+        of a given subreddit """
     if not word_dict:
         for word in word_list:
             if word.lower() not in word_dict:
