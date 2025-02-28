@@ -1,6 +1,6 @@
 **Postmortem: The Great Database Meltdown of 2024**
 
-![Database on Fire](https://example.com/database_fire_diagram.png) *(Artist’s rendition of what it felt like)*
+![It's getting Fired Up!](https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) *(Artist’s rendition of what it felt like)*
 
 ### **Issue Summary**
 ⏳ **Duration:** April 10, 2024, 14:05 - 15:30 UTC (1 hour 25 minutes)  
